@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C84559D92125C633009A907F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84559D82125C633009A907F /* Constants.swift */; };
+		C8469054211C842A00E80DBF /* CustomScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8469053211C842A00E80DBF /* CustomScrollView.swift */; };
+		C8532822211C2E55003CB09D /* BoundingRectVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8532821211C2E55003CB09D /* BoundingRectVC.swift */; };
+		C8532824211C2FC9003CB09D /* BoundingRect.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8532823211C2FC9003CB09D /* BoundingRect.storyboard */; };
+		C8AAE3342119A3EE008A9DB0 /* ScrollTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8AAE3332119A3EE008A9DB0 /* ScrollTextView.swift */; };
+		C8AAE3372119BF12008A9DB0 /* ForthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8AAE3362119BF12008A9DB0 /* ForthViewController.swift */; };
+		C8D578D62116FBF200AA2CF4 /* MessageBubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D578D52116FBF200AA2CF4 /* MessageBubbleView.swift */; };
+		C8DD9DAB2115C2050099F51C /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DD9DAA2115C2050099F51C /* TestViewController.swift */; };
+		C8DD9DAD2115D7BC0099F51C /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DD9DAC2115D7BC0099F51C /* ThirdViewController.swift */; };
 		C8E7E1F821147AA400592297 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E7E1F721147AA400592297 /* AppDelegate.swift */; };
 		C8E7E1FA21147AA400592297 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E7E1F921147AA400592297 /* ViewController.swift */; };
 		C8E7E1FD21147AA400592297 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8E7E1FB21147AA400592297 /* Main.storyboard */; };
@@ -15,6 +24,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C84559D82125C633009A907F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C8469053211C842A00E80DBF /* CustomScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomScrollView.swift; sourceTree = "<group>"; };
+		C8532821211C2E55003CB09D /* BoundingRectVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoundingRectVC.swift; sourceTree = "<group>"; };
+		C8532823211C2FC9003CB09D /* BoundingRect.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BoundingRect.storyboard; sourceTree = "<group>"; };
+		C8AAE3332119A3EE008A9DB0 /* ScrollTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollTextView.swift; sourceTree = "<group>"; };
+		C8AAE3362119BF12008A9DB0 /* ForthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForthViewController.swift; sourceTree = "<group>"; };
+		C8D578D52116FBF200AA2CF4 /* MessageBubbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBubbleView.swift; sourceTree = "<group>"; };
+		C8DD9DAA2115C2050099F51C /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		C8DD9DAC2115D7BC0099F51C /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		C8E7E1F421147AA400592297 /* CAReplicatorLayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAReplicatorLayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8E7E1F721147AA400592297 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C8E7E1F921147AA400592297 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +53,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C8AAE3382119C6A0008A9DB0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C8E7E1F921147AA400592297 /* ViewController.swift */,
+				C8DD9DAA2115C2050099F51C /* TestViewController.swift */,
+				C8DD9DAC2115D7BC0099F51C /* ThirdViewController.swift */,
+				C8AAE3362119BF12008A9DB0 /* ForthViewController.swift */,
+				C8532821211C2E55003CB09D /* BoundingRectVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C8AAE3392119C6BD008A9DB0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C8D578D52116FBF200AA2CF4 /* MessageBubbleView.swift */,
+				C8AAE3332119A3EE008A9DB0 /* ScrollTextView.swift */,
+				C8469053211C842A00E80DBF /* CustomScrollView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		C8E7E1EB21147AA400592297 = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +94,25 @@
 		C8E7E1F621147AA400592297 /* CAReplicatorLayerDemo */ = {
 			isa = PBXGroup;
 			children = (
-				C8E7E1F721147AA400592297 /* AppDelegate.swift */,
-				C8E7E1F921147AA400592297 /* ViewController.swift */,
 				C8E7E1FB21147AA400592297 /* Main.storyboard */,
+				C8532823211C2FC9003CB09D /* BoundingRect.storyboard */,
+				C8AAE3382119C6A0008A9DB0 /* Controllers */,
+				C8AAE3392119C6BD008A9DB0 /* Views */,
+				C8E7E20921147AC300592297 /* Other system files */,
+			);
+			path = CAReplicatorLayerDemo;
+			sourceTree = "<group>";
+		};
+		C8E7E20921147AC300592297 /* Other system files */ = {
+			isa = PBXGroup;
+			children = (
+				C8E7E1F721147AA400592297 /* AppDelegate.swift */,
 				C8E7E1FE21147AA700592297 /* Assets.xcassets */,
 				C8E7E20021147AA700592297 /* LaunchScreen.storyboard */,
 				C8E7E20321147AA700592297 /* Info.plist */,
+				C84559D82125C633009A907F /* Constants.swift */,
 			);
-			path = CAReplicatorLayerDemo;
+			path = "Other system files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +175,7 @@
 			files = (
 				C8E7E20221147AA700592297 /* LaunchScreen.storyboard in Resources */,
 				C8E7E1FF21147AA700592297 /* Assets.xcassets in Resources */,
+				C8532824211C2FC9003CB09D /* BoundingRect.storyboard in Resources */,
 				C8E7E1FD21147AA400592297 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,7 +188,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8E7E1FA21147AA400592297 /* ViewController.swift in Sources */,
+				C8AAE3342119A3EE008A9DB0 /* ScrollTextView.swift in Sources */,
+				C8DD9DAB2115C2050099F51C /* TestViewController.swift in Sources */,
+				C8DD9DAD2115D7BC0099F51C /* ThirdViewController.swift in Sources */,
+				C8532822211C2E55003CB09D /* BoundingRectVC.swift in Sources */,
+				C84559D92125C633009A907F /* Constants.swift in Sources */,
+				C8469054211C842A00E80DBF /* CustomScrollView.swift in Sources */,
+				C8D578D62116FBF200AA2CF4 /* MessageBubbleView.swift in Sources */,
 				C8E7E1F821147AA400592297 /* AppDelegate.swift in Sources */,
+				C8AAE3372119BF12008A9DB0 /* ForthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +344,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JJHX98NUDV;
-				INFOPLIST_FILE = CAReplicatorLayerDemo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CAReplicatorLayerDemo/Other system files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +363,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JJHX98NUDV;
-				INFOPLIST_FILE = CAReplicatorLayerDemo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CAReplicatorLayerDemo/Other system files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

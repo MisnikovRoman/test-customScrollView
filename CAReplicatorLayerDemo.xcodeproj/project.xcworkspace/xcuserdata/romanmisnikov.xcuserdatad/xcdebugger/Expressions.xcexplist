@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "CustomScrollView.draw(_:):CustomScrollView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "textHeight">
+            </PersistentString>
+            <PersistentString
+               value = "textLayer.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CustomScrollView.pauseAnimation():CustomScrollView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "scrollingAnimationDuration">
+            </PersistentString>
+            <PersistentString
+               value = "calculateTextHeight(text: attributedText, width: frame.width)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CustomScrollView.initText():CustomScrollView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "calculateTextHeight(text: attributedText, width: frame.width)">
+            </PersistentString>
+            <PersistentString
+               value = "scrollingAnimationDuration">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CustomScrollView.startAnimation(from:):CustomScrollView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "scrollingAnimationDuration">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
